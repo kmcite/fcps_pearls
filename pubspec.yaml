@@ -1,0 +1,67 @@
+name: fcps_pearls
+
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+dependencies:
+  colornames: ^0.2.0
+  # flex_color_scheme: ^8.0.1
+  flutter:
+    sdk: flutter
+  # freezed_annotation: ^2.4.4
+  # hive_flutter: ^1.1.0
+  # json_annotation: ^4.9.0
+  # path_provider: ^2.1.3
+  uuid: ^4.4.0
+  flutter_native_splash: ^2.4.1
+  # package_info_plus: ^8.0.0
+  # go_router: ^14.6.2
+  states_rebuilder: ^6.4.0
+  manager:
+    path: ..//manager
+  # objectbox: ^4.0.3
+  # objectbox_flutter_libs: ^4.0.3
+  # build_runner: ^2.4.13
+  # objectbox_generator: ^4.0.3
+  # flutter_riverpod: ^2.6.1
+  # riverpod_annotation: ^2.6.1
+  flutter_bloc: ^8.1.6
+  forui: ^0.9.0
+  # equatable: ^2.0.7
+  # provider: ^6.1.2
+  # collection: ^1.19.0
+dev_dependencies:
+  # freezed: ^2.4.7
+  # json_serializable: ^6.7.1
+  flutter_launcher_icons: ^0.14.1
+  # riverpod_generator: ^2.6.3
+  # custom_lint: ^0.7.0
+  # riverpod_lint: ^2.6.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+  windows:
+    generate: true
+    image_path: "assets/app_icon.png"
+    icon_size: 48
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/app_icon.png
+  ios: false
+  web: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    # - shorebird.yaml
+# dart run flutter_launcher_icons
+# dart run flutter_native_splash:create
