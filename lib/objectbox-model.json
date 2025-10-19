@@ -1,0 +1,71 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6416032497463386004",
+      "lastPropertyId": "2:122428220051595730",
+      "name": "Category",
+      "properties": [
+        {
+          "id": "1:2895596828577099358",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:122428220051595730",
+          "name": "name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2947808577650784283",
+      "lastPropertyId": "5:1348894756927360153",
+      "name": "Pearl",
+      "properties": [
+        {
+          "id": "1:1342753899379309937",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2007788494123174855",
+          "name": "statement",
+          "type": 9
+        },
+        {
+          "id": "3:8548385803532451712",
+          "name": "answer",
+          "type": 9
+        },
+        {
+          "id": "4:366839124428234618",
+          "name": "explanation",
+          "type": 9
+        },
+        {
+          "id": "5:1348894756927360153",
+          "name": "hidden",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2947808577650784283",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
